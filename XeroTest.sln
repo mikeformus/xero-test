@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeroAPITest", "XeroAPITest\XeroAPITest.csproj", "{0B2EBC1B-5BCE-4BD0-8986-395FE2693969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeroUITest", "XeroUITest\XeroUITest.csproj", "{34776C97-64BC-497F-81AE-430F5C5EDD75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{C466E106-A864-4842-A41D-886DFC5B8A65}"
+	ProjectSection(SolutionItems) = preProject
+		ThirdParty\chromedriver.exe = ThirdParty\chromedriver.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xero.Api", "ThirdParty\Xero.Api\Xero.Api.csproj", "{2EB9F8BA-CCFF-4B43-99A0-5130D368C78F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34869E0F-9BD2-47D4-A736-ADE189742E8A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B2EBC1B-5BCE-4BD0-8986-395FE2693969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2EBC1B-5BCE-4BD0-8986-395FE2693969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2EBC1B-5BCE-4BD0-8986-395FE2693969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2EBC1B-5BCE-4BD0-8986-395FE2693969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34776C97-64BC-497F-81AE-430F5C5EDD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34776C97-64BC-497F-81AE-430F5C5EDD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34776C97-64BC-497F-81AE-430F5C5EDD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34776C97-64BC-497F-81AE-430F5C5EDD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB9F8BA-CCFF-4B43-99A0-5130D368C78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB9F8BA-CCFF-4B43-99A0-5130D368C78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB9F8BA-CCFF-4B43-99A0-5130D368C78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB9F8BA-CCFF-4B43-99A0-5130D368C78F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EB9F8BA-CCFF-4B43-99A0-5130D368C78F} = {C466E106-A864-4842-A41D-886DFC5B8A65}
+	EndGlobalSection
+EndGlobal
